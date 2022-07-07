@@ -3,13 +3,10 @@ const fs = require('fs');
 const chalk = require('chalk');
 const readline = require('readline');
 
-
 const rl = readline.createInterface({
   input: process.stdin,
   output: process.stdout
 });
-
-
 
 const error = chalk.bold.red;
 const success = chalk.bold.green;
@@ -45,14 +42,12 @@ const fetcher = (url, path) => {
                     console.log(success(`Success!`));
                     console.log(`The file was saved to ${path}`);
                   }
-            
                 });
                 rl.close();
               } else {
                 rl.close();
               }
             });
-            
           }
         }
         if (!err) {
