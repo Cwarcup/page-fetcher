@@ -1,0 +1,16 @@
+{
+  "name": "page-fetcher",
+  "version": "1.0.0",
+  "description": "``` fetcher(URL, localPath) ``` It should download the resource at the URL to the local path on your machine. Upon completion, it should print out a message like `Downloaded and saved 1235 bytes to ./index.html`.",
+  "main": "fetcher.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "request": "^2.88.2"
+  }
+}
